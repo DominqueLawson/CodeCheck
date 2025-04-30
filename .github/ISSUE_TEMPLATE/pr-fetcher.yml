@@ -6,11 +6,3 @@ body:
   - type: markdown
     attributes:
       value: "## Build PR fetching Lambda and expose via API Gateway"
-  - type: checklist
-    attributes:
-      label: Tasks
-      options:
-        - [ ] Implement Lambda function to fetch PRs from GitHub
-        - [ ] Create secured /prs API route
-        - [ ] Add caching layer with DynamoDB TTL
-        - [ ] Handle GitHub API rate limiting and errors
