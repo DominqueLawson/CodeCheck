@@ -3,6 +3,15 @@ description: Track GitHub OAuth implementation
 title: "[Auth] "
 labels: ["auth", "backend"]
 body:
-  - type: markdown
+- type: markdown
+  attributes:
+    value: "## GitHub OAuth Setup and API Integration"
+- type: checklist
     attributes:
-      value: "## GitHub OAuth Setup and API Integration"
+      label: Tasks
+      options:
+        - Create GitHub OAuth app (client ID/secret)
+        - Store secrets in AWS Secrets Manager
+        - Implement OAuth Lambda handler
+        - Add /auth/login API route via API Gateway
+        - Store user session/token in DynamoDB
