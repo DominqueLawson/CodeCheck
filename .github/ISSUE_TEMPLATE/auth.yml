@@ -3,12 +3,12 @@ description: "Track GitHub OAuth implementation"
 title: "[Auth] "
 labels: ["auth", "backend"]
 body:
-- type: markdown
-  attributes:
-    value: "## GitHub OAuth Setup and API Integration"
-- type: checklist
-  attributes:
-    label: Tasks
+  - type: markdown
+    attributes:
+      value: "## GitHub OAuth Setup and API Integration"
+  - type: checklist
+    attributes:
+      label: Tasks
       options:
         - label: Create GitHub OAuth app (client ID/secret)
         - label: Store secrets in AWS Secrets Manager
