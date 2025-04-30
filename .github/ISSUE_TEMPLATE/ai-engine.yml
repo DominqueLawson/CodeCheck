@@ -1,0 +1,16 @@
+name: AI Review Engine
+description: OpenAI integration to review pull requests
+title: "[AI Review] "
+labels: ["ai", "backend"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Integrate OpenAI GPT-4 to review pull requests"
+  - type: checklist
+    attributes:
+      label: Tasks
+      options:
+        - [ ] Build Lambda to format PR diffs and send to GPT-4
+        - [ ] Design prompt template for actionable feedback
+        - [ ] Add /review endpoint via API Gateway
+        - [ ] Store AI-generated reviews in DynamoDB

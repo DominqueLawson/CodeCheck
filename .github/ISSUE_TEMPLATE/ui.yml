@@ -1,0 +1,17 @@
+name: Frontend UI
+description: Develop micro-frontend components for CodeCheck
+title: "[UI] "
+labels: ["frontend", "mfe", "typescript"]
+body:
+  - type: markdown
+    attributes:
+      value: "## React + Tailwind Micro-Frontends with API Integration"
+  - type: checklist
+    attributes:
+      label: Tasks
+      options:
+        - [ ] Scaffold Webpack MFE container app
+        - [ ] Build PR List Micro-Frontend
+        - [ ] Build Review Insights Micro-Frontend
+        - [ ] Connect frontends to API endpoints
+        - [ ] Apply consistent design with TailwindCSS

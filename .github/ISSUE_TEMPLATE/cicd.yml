@@ -1,0 +1,16 @@
+name: CI/CD Setup
+description: Automate deployment with GitHub Actions and CDK
+title: "[CI/CD] "
+labels: ["ci-cd", "devops"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Automate deployment and testing pipelines"
+  - type: checklist
+    attributes:
+      label: Tasks
+      options:
+        - [ ] Set up GitHub Actions for frontend build & deploy
+        - [ ] Deploy backend stack using AWS CDK
+        - [ ] Add lint/test stages to pipeline
+        - [ ] Configure environment secrets securely

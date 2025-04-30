@@ -1,0 +1,16 @@
+name: Documentation & Ops
+description: Improve project documentation and visibility
+title: "[Docs] "
+labels: ["docs", "onboarding"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Write developer-friendly documentation and public logs"
+  - type: checklist
+    attributes:
+      label: Tasks
+      options:
+        - [ ] Write README with architecture, install steps, usage
+        - [ ] Add CONTRIBUTING.md and code style guide
+        - [ ] Embed high-level system diagram
+        - [ ] Track LinkedIn posts for milestone updates
