@@ -1,5 +1,5 @@
-name: Auth Feature
-description: Track GitHub OAuth implementation
+name: "Auth Feature"
+description: "Track GitHub OAuth implementation"
 title: "[Auth] "
 labels: ["auth", "backend"]
 body:
@@ -8,7 +8,7 @@ body:
     value: "## GitHub OAuth Setup and API Integration"
 - type: checklist
   attributes:
-    label: Tasks
+    label: "Tasks"
       options:
         - Create GitHub OAuth app (client ID/secret)
         - Store secrets in AWS Secrets Manager
