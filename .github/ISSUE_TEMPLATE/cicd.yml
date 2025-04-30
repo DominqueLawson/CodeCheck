@@ -1,8 +1,17 @@
-name: CI/CD Setup
-description: Automate deployment with GitHub Actions and CDK
+name: "CI/CD Feature"
+description: "Track CI/CD pipeline setup for CodeCheck"
 title: "[CI/CD] "
-labels: ["ci-cd", "devops"]
+labels: ["ci", "cd", "devops"]
 body:
   - type: markdown
     attributes:
-      value: "## Automate deployment and testing pipelines"
+      value: "## Setup CI/CD using GitHub Actions and AWS CDK"
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      options:
+        - label: Create GitHub Actions workflow for build/test
+        - label: Add CDK deploy step in workflow
+        - label: Implement preview environments per PR
+        - label: Run unit tests in pipeline
+        - label: Add linting and formatting checks

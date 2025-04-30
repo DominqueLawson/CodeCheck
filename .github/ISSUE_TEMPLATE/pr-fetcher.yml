@@ -1,8 +1,17 @@
-name: Pull Request Fetcher
-description: Implement GitHub PR fetching logic
+name: "PR Fetcher Feature"
+description: "Track Pull Request fetcher microservice"
 title: "[PR Fetcher] "
-labels: ["api", "lambda", "backend"]
+labels: ["fetcher", "backend"]
 body:
   - type: markdown
     attributes:
-      value: "## Build PR fetching Lambda and expose via API Gateway"
+      value: "## Service to fetch GitHub PRs and store them in DynamoDB"
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      options:
+        - label: Set up GitHub API access token
+        - label: Implement PR fetch Lambda function
+        - label: Store PR metadata in DynamoDB
+        - label: Schedule fetcher with EventBridge (cron)
+        - label: Implement error handling and retries

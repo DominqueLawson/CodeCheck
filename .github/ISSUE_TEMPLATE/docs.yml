@@ -1,8 +1,17 @@
-name: Documentation & Ops
-description: Improve project documentation and visibility
+name: "Docs Feature"
+description: "Track documentation and onboarding improvements"
 title: "[Docs] "
-labels: ["docs", "onboarding"]
+labels: ["docs"]
 body:
   - type: markdown
     attributes:
-      value: "## Write developer-friendly documentation and public logs"
+      value: "## Write and maintain project documentation"
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      options:
+        - label: Create README with architecture diagram
+        - label: Add contributing guide
+        - label: Write setup instructions
+        - label: Document API routes
+        - label: Add FAQ or troubleshooting section

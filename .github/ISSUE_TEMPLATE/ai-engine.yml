@@ -1,8 +1,17 @@
-name: AI Review Engine
-description: OpenAI integration to review pull requests
-title: "[AI Review] "
+name: "AI Engine Feature"
+description: "Track AI-powered code reviewer engine"
+title: "[AI Engine] "
 labels: ["ai", "backend"]
 body:
   - type: markdown
     attributes:
-      value: "## Integrate OpenAI GPT-4 to review pull requests"
+      value: "## AI engine to analyze PRs and generate code reviews"
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      options:
+        - label: Choose OpenAI or Claude API for summarization
+        - label: Implement Lambda AI processor
+        - label: Trigger processor on new PR fetch
+        - label: Store reviews in DynamoDB
+        - label: Optimize for latency and token usage

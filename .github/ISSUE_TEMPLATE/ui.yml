@@ -1,8 +1,17 @@
-name: Frontend UI
-description: Develop micro-frontend components for CodeCheck
+name: "UI Feature"
+description: "Track frontend progress for CodeCheck dashboard"
 title: "[UI] "
-labels: ["frontend", "mfe", "typescript"]
+labels: ["ui", "frontend"]
 body:
   - type: markdown
     attributes:
-      value: "## React + Tailwind Micro-Frontends with API Integration"
+      value: "## Build Next.js + Tailwind dashboard UI"
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      options:
+        - label: Scaffold Next.js app with Tailwind
+        - label: Build Auth login page
+        - label: Build PR list page with status
+        - label: Build review detail page
+        - label: Connect to backend API endpoints
