@@ -1,1 +1,13 @@
-{ "name": "utils", "private": true }
+{
+  "name": "@codecheck/utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  }
+}

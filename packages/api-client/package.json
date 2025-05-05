@@ -1,5 +1,5 @@
 {
-  "name": "@codecheck/ui",
+  "name": "@codecheck/api-client",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -10,9 +10,7 @@
       "require": "./index.js"
     }
   },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+  "dependencies": {
+    "axios": "^1.6.8"
   }
 }
-
